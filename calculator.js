@@ -3,7 +3,7 @@ function add(numbers) {
     return 0;
   }
 
-  const delimiter = [",", "\n"];
+  const delimiter = [",", "\n"]; 
 
   if (numbers.startsWith("//")) {
     const parts = numbers.split("\n", 2);
